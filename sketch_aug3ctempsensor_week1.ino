@@ -1,12 +1,5 @@
-void setup() {
-  // put your setup code here, to run once:
 
-}
-
-void loop() {
-  // put yo#include "DHT.h"
-//#include <SoftwareSerial.h>
-
+#include "DHT.h"
 #define DHTPIN 21      // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11   // DHT 11
 
@@ -72,5 +65,5 @@ void loop() {
     delay(1000);
  }
 }
-}
+
 
